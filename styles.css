@@ -2,42 +2,75 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #FFF3E0; /* Light orange background */
     color: #333;
     line-height: 1.6;
 }
 
-header, section, footer {
-    padding: 20px;
-}
-
 header {
-    background: #333;
+    background: #FF9800; /* Bright orange background */
     color: #fff;
     text-align: center;
+    padding: 20px 0;
 }
 
 header h1 {
     margin: 0;
 }
 
-#bio, #contact {
-    background: #ddd;
-}
-
-.project {
-    background: #fff;
-    margin-bottom: 10px;
-    padding: 15px;
-    border: 1px solid #ccc;
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFF8E1; /* Very light orange for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
 }
 
 footer {
     text-align: center;
-    background: #333;
+    background: #FF9800; /* Matching the header */
     color: #fff;
+    padding: 10px 0;
 }
 
 a {
-    color: #00f;
+    color: #FF5722; /* A darker shade of orange for links */
+    text-decoration: none; /* No underlines for a cleaner look */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+/* Styling for the new sections */
+.experience-section, .education-section, .achievements-section, .skills-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #FF9800; /* Orange color for headings */
+}
+
+.job, .education, .achievements-section ul li, .skills-section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    header, footer {
+        padding: 10px 0;
+    }
+
+    section {
+        margin: 10px 0;
+    }
 }
