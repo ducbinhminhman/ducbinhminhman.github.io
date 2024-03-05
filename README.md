@@ -16,7 +16,7 @@ Welcome to my personal website hosted on GitHub Pages. This site is a portfolio 
 
 - **Email:** manbinhminh99@gmail.com
 - **LinkedIn:** [binhminhman](https://www.linkedin.com/in/binhminhman/)
-- **website**: [My Website](ducbinhminhman.github.io)
+- **Website**: [My Website](ducbinhminhman.github.io)
 - **Medium**: [Ryan & Writings](https://medium.com/@bnhminh_38309) 
 
 This README provides a quick overview of what you can find on my website. For more details, please visit the actual site.
